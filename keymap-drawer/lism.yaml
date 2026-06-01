@@ -2,8 +2,8 @@ layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
   - Q
-  - W
-  - E
+  - F
+  - G
   - R
   - T
   - Y
