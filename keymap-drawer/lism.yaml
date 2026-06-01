@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: LALT}
+  - '&bl BL_ON'
   - {t: D, h: LSHIFT}
   - {t: F, h: LGUI}
   - {t: G, h: LCTRL}
