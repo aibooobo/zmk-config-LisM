@@ -63,10 +63,10 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&kp F1    &kp F2   &kp F3  &kp F4  &kp F5                    &kp F6        &kp F7    &kp F8    &kp F9        &kp F10
-&kp F11   &kp F12  &trans  &trans  &trans                    &kp LG(UP)    &mkp MB1  &mkp MB2  &msc SCRL_UP  &msc SCRL_DOWN
-&mkp MB4  &trans   &trans  &trans  &trans                    &kp LG(DOWN)  &kp LEFT  &kp UP    &kp RIGHT     &trans
-&trans    &trans   &trans  &trans  &trans  &trans    &trans  &trans        &trans    &kp DOWN  &trans        &kp LG(W)
+&kp F1    &kp F2   &kp F3  &kp F4  &kp F5                            &kp F6        &kp F7    &kp F8    &kp F9        &kp F10
+&kp F11   &kp F12  &trans  &trans  &studio_unlock                    &kp LG(UP)    &mkp MB1  &mkp MB2  &msc SCRL_UP  &msc SCRL_DOWN
+&mkp MB4  &trans   &trans  &trans  &trans                            &kp LG(DOWN)  &kp LEFT  &kp UP    &kp RIGHT     &trans
+&trans    &trans   &trans  &trans  &trans          &trans    &trans  &trans        &trans    &kp DOWN  &trans        &kp LG(W)
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -97,10 +97,10 @@
         layer_4 {
             display-name = "Device Layer";
             bindings = <
-&none        &none           &none  &none  &bt BT_CLR                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none        &none           &none  &none  &none                                &none         &none         &none         &none         &none
-&sys_reset   &none           &none  &none  &none                                &none         &none         &none         &none         &sys_reset
-&bootloader  &bt BT_CLR_ALL  &none  &none  &none       &none    &studio_unlock  &none         &none         &none         &none         &bootloader
+&none        &none           &none  &none  &bt BT_CLR                               &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&none        &none           &none  &none  &studio_unlock                           &bt BT_NXT    &none         &none         &none         &none
+&sys_reset   &none           &none  &none  &none                                    &none         &none         &none         &none         &sys_reset
+&bootloader  &bt BT_CLR_ALL  &none  &none  &none           &none    &studio_unlock  &none         &none         &none         &none         &bootloader
             >;
         };
 
