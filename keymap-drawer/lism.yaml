@@ -58,7 +58,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - Gui+↑
   - '&mkp MB1'
   - '&mkp MB2'
@@ -187,8 +187,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&studio_unlock'
+  - BT NXT
   - ''
   - ''
   - ''
