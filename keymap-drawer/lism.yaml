@@ -41,7 +41,7 @@ layers:
   - {t: ENTER, h: Device Layer}
   - {t: ▽, type: trans}
   - TAB
-  - LANG ZENKAKUHANKAKU
+  - B
   - CAPS
   Mouse Layer:
   - F1
